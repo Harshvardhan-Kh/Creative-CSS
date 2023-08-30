@@ -16,9 +16,9 @@
 .main {
     
     box-shadow: 0 0 7px -1px;
-    border-radius: 9px;
     padding: 10px;
-    border-radius: 50%;
+    border-radius: 50% ;
+    border: 2px solid #c9b8ff;
 }
 
 .fan-circle {
