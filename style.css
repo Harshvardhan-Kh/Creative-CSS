@@ -131,3 +131,43 @@
     background-color: aliceblue;
     width: 60px;
 }
+
+.anime-spin {
+    animation: spinn 1s linear infinite;
+}
+.anime-spin2 {
+    animation: spinn2 2.5s linear infinite;
+       
+}
+.anime-spin3 {
+    animation: spinn3 1.3s linear infinite;
+       
+}
+.anime-spin4 {
+    animation: spinn4 0.7s linear infinite;
+       
+}
+
+@keyframes spinn {
+    0% {
+        transform:rotate(-12180deg) ;
+    }
+}
+
+@keyframes spinn2 {
+    0% {
+        transform:rotate(12180deg) ;
+    }
+}
+
+@keyframes spinn3 {
+    0% {
+        transform:rotate(-16180deg) ;
+    }
+}
+
+@keyframes spinn4 {
+    0% {
+        transform:rotate(18180deg) ;
+    }
+}
